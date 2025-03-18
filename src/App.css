@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+.App{
+  
+}
+
+#root {
+  
+  margin: 0 ;
+  text-align: center;
+  overflow:hidden
+}
+
+.hero{
+  margin-top:10px;
+  height:60vh;
+  width:100vw;
+  background-image:url('../heroimage.jpg');
+  background-size:100% auto;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  font-size: 2rem
+}
+
+.container{
+  display:flex;
+  justify-content:center
+}
+.list{
+  display:flex;
+  align-items:center;
+  gap:7px 
+}
+
+
+
+
+@media(max-width:576px){
+  .hero{
+    background-image:url('../heroimage.jpg');
+    background-position:center;
+    background-size:100% 350px;
+    background-repeat:no-repeat;
+  }
+}
+
+
+
+
