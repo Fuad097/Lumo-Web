@@ -12,7 +12,7 @@ function Navbar() {
           Become a host
         </button>
 
-        <div className="flex w-auto gap-2 md:w-14 md:justify-between items-center ">
+        <div className="flex w-48 gap-2 md:w-14 md:justify-between items-center ">
           <span className="text-2xl">
             <GiHamburgerMenu />
           </span>
